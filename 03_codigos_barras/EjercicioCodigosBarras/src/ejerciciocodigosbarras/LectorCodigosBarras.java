@@ -21,6 +21,7 @@ public class LectorCodigosBarras {
     public void conectar() throws IOException {
 
         double error = r.nextDouble();
+        
 
         if (error > 0.5) {
             System.out.println("INFO: Conectado...");
